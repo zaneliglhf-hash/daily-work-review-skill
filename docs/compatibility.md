@@ -5,7 +5,7 @@
 | 工具或环境 | 已知依据 | 本项目实测 |
 | --- | --- | --- |
 | QoderWork | [官方](https://docs.qoder.com/zh/qoderwork/skills)明确支持将 GitHub 仓库链接发给执行器下载安装；浏览器能力需另外开启 | 尚未实测本技能 |
-| WorkBuddy | [官方](https://www.codebuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Function-Description/Skills-Market)支持上传 Skill 包；[更新日志](https://www.codebuddy.cn/docs/workbuddy/Changelog)说明 Browser Use 支持 Edge 等 | 见验证记录，不把官方功能说明当成端到端通过 |
+| WorkBuddy | [官方](https://www.codebuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Function-Description/Skills-Market)支持上传 Skill 包；[更新日志](https://www.codebuddy.cn/docs/workbuddy/Changelog)说明 Browser Use 支持 Edge 等 | 5.9.3 已实测从 GitHub 自然语言安装、清单校验、宿主列表识别及三字段模板；真实表格全流程未在该工具中验证 |
 | 其他支持 SKILL.md 的执行器 | 以当前版本的官方安装和浏览器说明为准 | 未测试的工具不作保证 |
 | 仅支持聊天/上传材料的 AI | 可以阅读完整规则和用户提供的全文 | 不声称已持久安装或已在线填表 |
 

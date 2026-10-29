@@ -20,6 +20,8 @@ Report missing capabilities honestly. Show the three-field daily form.
 Do not start a real review during installation.
 ```
 
+**Verified in WorkBuddy 5.9.3: paste the instruction → download and verify → install and recognize → display the three-field form.** [Verification scope](docs/verification.md).
+
 An executor needs network access and file/skill installation capabilities. Otherwise download the [Skill ZIP](dist/daily-work-review.zip) and import it through the host's skill manager. The ZIP does not include a model or browser.
 
 ## 2. Use it daily

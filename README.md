@@ -21,6 +21,8 @@ skills/daily-work-review 的完整内容和引用文件。
 这一步只安装和检查，不启动真实审核。
 ```
 
+**已在 WorkBuddy 5.9.3 验证：复制上述指令 → 下载校验 → 安装并识别 → 展示三字段模板。** [查看验证范围](docs/verification.md)。
+
 执行器需要有联网下载和文件/技能安装能力。不能自动安装时，下载 [Skill ZIP](dist/daily-work-review.zip)，在工具的技能管理页面导入。ZIP 不附带模型或浏览器。
 
 ## ② 日常：引用 Skill，填三项
@@ -67,6 +69,6 @@ skills/daily-work-review 的完整内容和引用文件。
 
 标准 Skill 不代表所有聊天软件都能安装或控制网页。有网页操作能力的执行器可尝试完整流程；只能读材料的 AI 会要求提供完整名单、提交记录、正文/图片，并明确标注“未在线核验、未回填”。
 
-[安装和更新](INSTALL.md) · [工具兼容性](docs/compatibility.md) · [验证记录](docs/verification.md) · [虚构演练](examples/README.md)
+[安装和更新](INSTALL.md) · [工具兼容性](docs/compatibility.md) · [验证记录](docs/verification.md) · [虚构演练](examples/README.md) · [发布安全检查](docs/security.md)
 
 首次试用请使用测试表。免费额度由工具提供方决定，本项目不内置 API、不保证永久免费，也不要求同学填写 API Key。私人表格链接和账号凭据不要提交到本仓库或公开 Issue。
