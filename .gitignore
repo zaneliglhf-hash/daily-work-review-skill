@@ -1,0 +1,13 @@
+# Private group data and local execution evidence never belong in this repository.
+.daily-work-review/
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+cookies*.json
+storage-state*.json
+__pycache__/
+*.pyc
+.DS_Store
+.local/
