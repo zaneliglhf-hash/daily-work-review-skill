@@ -54,6 +54,12 @@ All members are checked. By default, five distinct authors are reviewed in sourc
 
 This is a format illustration, not a real review. Execution status is reported separately. Missing content must not become invented feedback; incomplete submission evidence must not become ❌.
 
+## Executed exercise
+
+![Synthetic table after native-option writeback and refresh](assets/demo-table.png)
+
+An independent executor checked eight synthetic members, read five full texts, and filled the existing options. Refresh preserved six ✅ and two ❌, with the previous day unchanged. [Actual generated sample report](examples/sample-report.txt), in Chinese. This simulated table does not prove compatibility with WeCom Docs.
+
 ## Compatibility and limits
 
 A standard skill does not make every chat app capable of installing skills or controlling a browser. Browser-capable executors can attempt the full workflow. Material-only tools require the full roster, submissions and original text/images, and must state that online access and writeback were not performed.
