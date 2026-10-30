@@ -1,9 +1,10 @@
 {
-  "version": "0.1.0",
+  "version": "0.1.1",
   "skill": "daily-work-review",
   "files": {
-    "SKILL.md": "2863c5d8eab05ed11b7de83f0950c57ad6b893df8939d133a9fbc33d8fbab0e2",
-    "references/report-format.md": "c6d5d460e47e840482cf7c5a63fa69c37b2fe7597851b4320e48022c5d6bfb0f",
-    "references/workflow.md": "d46afaddc89562f8c900acda3187161726524a0644769886eaf703d41198e9a5"
+    "SKILL.md": "9bb5c3809109b826b9c5d0a8ec9bc0902ae56185198bfd551e4d465fdb762a73",
+    "references/report-format.md": "8d8cb87effd440a87ccd735e0188fd6b5beacf86111d753f01757fd6ee437c68",
+    "references/workflow.md": "50e993581b7bcc52c055bf05d41ddfc6b709da23701a5425d35be7e48529634e",
+    "references/write-safety.md": "976ac4d39b6c0d5cf51397e1f42a9a33720d624ce8f14c4a08d10c4932ca593b"
   }
 }

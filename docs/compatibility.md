@@ -5,12 +5,16 @@
 | 工具或环境 | 已知依据 | 本项目实测 |
 | --- | --- | --- |
 | QoderWork | [官方](https://docs.qoder.com/zh/qoderwork/skills)明确支持将 GitHub 仓库链接发给执行器下载安装；浏览器能力需另外开启 | 尚未实测本技能 |
-| WorkBuddy | [官方](https://www.codebuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Function-Description/Skills-Market)支持上传 Skill 包；[更新日志](https://www.codebuddy.cn/docs/workbuddy/Changelog)说明 Browser Use 支持 Edge 等 | 5.9.3 已实测从 GitHub 自然语言安装、清单校验、宿主列表识别及三字段模板；真实表格全流程未在该工具中验证 |
+| WorkBuddy | [官方](https://www.codebuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Function-Description/Skills-Market)支持上传 Skill 包；[更新日志](https://www.codebuddy.cn/docs/workbuddy/Changelog)说明 Browser Use 支持 Edge 等 | 5.9.3 对 0.1.0 的安装、清单校验、宿主识别及三字段模板已实测；2026-10-30 用户反馈真实表试用发生误写，完整回填未通过；0.1.1 真实表复测待完成 |
 | 其他支持 SKILL.md 的执行器 | 以当前版本的官方安装和浏览器说明为准 | 未测试的工具不作保证 |
 | 仅支持聊天/上传材料的 AI | 可以阅读完整规则和用户提供的全文 | 不声称已持久安装或已在线填表 |
 
 官网功能核对日期：2026-10-29。工具界面、模型额度与功能会变化。不能仅凭“国产智能体”或工具名称保证能安装，更不能保证每次审核免费。首版用户每月一两次的用量仍需实际测量。
 
 微信文档 `doc.weixin.qq.com` 与腾讯文档 `docs.qq.com` 的连接器不能混用。现有成员创建的微信文档不能假设能用企业微信应用 API 任意编辑，保留原表时以授权浏览器操作为验证路线。[企业微信官方概述](https://developer.work.weixin.qq.com/document/path/97392)
+
+0.1.1 的自动回填还需要 [外部写入边界](../skills/daily-work-review/references/write-safety.md)：表格保护必须对当前执行账号有效，或受限工具必须检查本次文档、页签、单元格及允许值，且不能通过通用浏览器工具绕过。不是每种文档或执行器都支持这种限制；本项目也不附带该工具。无法核实时，只读审核并给出待回填清单。不能把“完全访问”、能点击下拉框或安装成功当作权限隔离。
+
+仅靠截图坐标操作 Canvas 的路径不符合新版自动回填要求。原生选项的选择还必须可靠绑定到本次日期和姓名所在的目标单元格，不能向名称框或网格盲打区域地址、测试文字。旧版模拟表通过不能证明这些边界已验证。
 
 如要反馈问题，只提供工具版本、失败步骤和不含个人数据的最小示例。不要公开真实文档链接、Cookie、API Key、名单或完整账号截图。
